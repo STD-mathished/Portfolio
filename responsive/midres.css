@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+@media (max-width: 1250px) {
+
+    h1 {
+        font-size: 2em;
+    }
+    .projet img { 
+        width: 60%;
+    } 
+
+    #heroe-text p{
+        font-size: 0.8em;
+    }
+
+    .h-container img {
+        width: 17%;
+        height: auto;
+    }
+
+    .c-body p , .c-body li, .c-body h3 , .c-header h3{
+        font-size: 0.8em;
+    }
+
+    .c-body p , .c-body li{
+        margin: 0 3em; /**L'aspect des lignes**/
+    }
+
+    .c-container {
+        width: 33.3%;
+        margin: 0 1em;
+    }
+    .p-body {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    #heroe-text p{
+        font-size: 1em;
+    }
+
+    .h-container img {
+        width: 15%;
+        height: auto;
+    }
+
+    .c-body p , .c-body li, .c-body h3 , .c-header h3{
+        font-size: 0.6em;
+    }
+
+    .c-body p , .c-body li{
+        margin: 0 2.5em; /**L'aspect des lignes**/
+    }
+
+    .c-container {
+        width: 33.3%;
+        margin: 0 1em;
+    }
+    .a-propos h2 {
+        font-size: 1.8em;
+    }
+    .a-propos p {
+        font-size: 1em;
+    
+    }
+    .p-body {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .projet img { 
+        width: 50%;
+    } 
+
+
+}
+@media (max-width: 700px) {
+    .a-propos h2 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .a-propos p {
+        margin: 0 8em;
+        font-size: 1em;
+        font-weight: bold;
+    
+    }
+    .projet img { 
+        width: 50%;
+    } 
+    #card-section {
+        margin-top: -9em;
+    }
+    .p-header h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+    .desc h3 {
+        font-size: 1.2em;
+    }
+
+    .desc p {
+        font-size: 0.9em ;
+    }
+    .p-body {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+    .projet img { 
+        width: 30%;
+    } 
+
+    #heroe-text p{
+        font-size: 0.9em;
+    }
+
+    .h-container img {
+        width: 15%;
+        height: auto;
+    }
+
+    .c-body p , .c-body li, .c-body h3 , .c-header h3{
+        font-size: 0.6em;
+    }
+
+    .c-body p , .c-body li{
+        margin: 0 2.5em; /**L'aspect des lignes**/
+    }
+
+    .c-container {
+        width: 33.3%;
+    }
+
+    .a-propos h2 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .a-propos p {
+        margin: 0 5em;
+        font-size: 1em;
+        font-weight: bold;
+    
+    }
+
+    .projet {
+         width: 100%; /* Chaque projet occupe 100% de la largeur du conteneur */
+        margin: 1em 0; /* Ajustement des marges pour éviter le débordement */ 
+    } 
+    .projet img {
+        width: 80%
+    }
+    .p-body {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+}
+@media (max-width: 540px) {
+     .projet { 
+        width: 100%;
+        margin: 1em 0; 
+    } 
+    .projet img { 
+        width: 30%;
+    } 
+    .desc h3 {
+         font-size: 1.2em; /* Ajustement de la taille de la police pour les petits écrans */ 
+        }
+
+        #github {
+            padding: 1em;
+            font-size: 0.8em;
+        } 
+
+        #contact {
+            border-radius: 9999px;
+            padding: 1em;
+            font-size: 0.8em;
+    }
+        .links {
+            gap: 10px;
+        }
+
+        .logo h2 {
+            font-size: 1em;
+        }
+        .p-body {
+            flex-direction: column;
+            align-items: center;
+            gap: 100px;
+        }
+     }

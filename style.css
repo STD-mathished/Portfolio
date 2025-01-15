@@ -222,16 +222,17 @@ header {
 
 /**Mes projets**/
 #projets {
-    height: 100vh;
     width: auto;
+}
+.c-project {
+    height: 100%;
     display: flex;
     flex-direction: column;
     background-color: #6E07F3;
     color: white;
+    overflow: hidden;
 }
-.projet {
-    width: 33.3%;
-}
+
 
 .p-header {
     margin-top: 5em;
@@ -255,6 +256,7 @@ header {
     gap: 25px;
     margin: 0 2em;
     width: 33.33%;
+
 }
 
 .projet img {

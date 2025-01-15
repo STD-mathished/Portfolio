@@ -207,3 +207,16 @@
             gap: 100px;
         }
      }
+
+@media (max-width: 400px) {
+    .a-propos h2 {
+        font-size: 1.6em;
+        font-weight: bold;
+    }
+    .a-propos p {
+        margin: 0 3em;
+        font-size: 0.8em;
+        font-weight: bold;
+    
+    }
+}

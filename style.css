@@ -277,3 +277,10 @@ header {
     font-size: 1.5em;
 }
 
+footer {
+    display: flex;
+    justify-content: center;    
+    font-style: italic;
+    font-size: 0.5em;
+}
+

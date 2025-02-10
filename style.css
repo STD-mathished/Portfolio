@@ -232,6 +232,7 @@ header {
     background-color: #6E07F3;
     color: white;
     overflow: hidden;
+    
 }
 
 
@@ -275,6 +276,10 @@ header {
     text-align: center;
 }
 
+.desc p {
+    margin-bottom: 50px;
+}
+
 .desc h3 {
     margin-bottom: 2em;
     font-size: 1.5em;
@@ -282,10 +287,30 @@ header {
 
 footer {
     display: flex;
-    justify-content: center;    
+    justify-content: space-around;    
     font-style: italic;
     font-size: 0.5em;
+    height: 20vh;
+    align-items: center;
+    position: static;
 }
+
+.github, .linkedin{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.github a, .linkedin a{
+    font-size: 2em;
+    margin-bottom: -17px;
+    text-decoration: none;
+    color: #141c3a;
+}
+.github a:hover , .linkedin a:hover{
+    text-decoration: underline;
+}
+
 
 .github img {
     width: 50px;

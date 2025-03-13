@@ -292,6 +292,9 @@ header {
 .desc a:hover {
     text-decoration: underline;
 }
+.desc a:visited {
+    color: white;
+}
 
 footer {
     display: flex;

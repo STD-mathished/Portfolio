@@ -118,7 +118,8 @@ header {
 }
 
 #heroe img:hover {
-    width: 25%;
+    transform: scale(1.2);
+    transition: 1.5s;
 }
 
 /*Seconde section*/
@@ -333,3 +334,40 @@ footer {
     height: auto;
 }
 
+/*feature*/
+.image {
+    width: 300px;
+    cursor: pointer;
+  }
+  
+.image-container {
+    text-align: center;
+}
+
+  .dialogue-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    max-width: 550px;
+    z-index: 1000;
+    display: none; /* cachée par défaut */
+    text-align: justify;
+  }
+  
+  .image-container:hover .dialogue-box {
+    display: block;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translate(-50%, -55%); }
+    to   { opacity: 1; transform: translate(-50%, -50%); }
+  }
+  
+  

@@ -38,6 +38,10 @@
     #card-section {
         margin-top: -20em;
     }
+
+    .dialogue-box {
+        font-size: 0.8em;
+    }
 }
 
 @media (max-width: 850px) {
@@ -48,11 +52,6 @@
 
     #heroe-text p{
         font-size: 1em;
-    }
-
-    #heroe img {
-        width: 50%;
-        height: auto;
     }
 
     .c-body p , .c-body li, .c-body h3 , .c-header h3{
@@ -85,6 +84,16 @@
     } 
     #card-section {
         margin-top: -15em;
+    }
+
+    .dialogue-box {
+        font-size: 0.8em;
+        max-width: 750px;
+    }
+
+    #heroe img {
+        width: 25%;
+        height: auto;
     }
 
 
@@ -126,6 +135,7 @@
     h1 {
         font-size: 1.5em;
     }
+
 
     #heroe-text p{
         font-size: 0.9em;
@@ -170,6 +180,11 @@
         flex-direction: column;
         align-items: center;
         gap: 100px;
+    }
+
+    #heroe img {
+        width: 30%;
+        height: auto;
     }
 }
 @media (max-width: 540px) {
